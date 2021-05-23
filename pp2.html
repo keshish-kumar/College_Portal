@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>Student Registration Form</title>
+	</head>
+	
+	
+	<body bgcolor="sky blue">
+<form action="pp3.php" method="get">
+	
+		<div align="right">
+		<MARQUEE  onmouseout="this.start();" onmouseover="this.stop();"direction="left" bgcolor="yellow" behaviour="alternate"  >WELCOME</MARQUEE>
+		</div><center>
+		<form>
+			<table align="center" border="1" width="500" height="800" bgcolor="#b6b6b6" bordercolor="#8E79F4">
+	 		<tr>
+			                  <th>NAME</th>
+				  <th><input type="text" name="NAME"></th>
+			</tr>
+			<tr>
+			                  <th>FATHER_NAME</th>
+				  <th><input type="text" name="FATHER_NAME"></th>
+			</tr>
+			<tr>
+			                  <th>MOTHER_NAME</th>
+				  <th><input type="text" name="MOTHER_NAME"></th>
+			</tr>
+			<tr>
+				<th>EMAIL_ID</th>
+				<th><input type="email" name="EMAIL_ID"></th>
+			</tr>
+			<tr>
+				<th>CONTACT_NO</th>
+				<th><input type="number" name="CONTACT_NO" minlength="10" maxlength="10" required></th>
+			</tr>
+			<tr>
+				<th>AADHAR_NO</th>
+				<th><input type="number" name="AADHAR_NO" minlength="12" maxlength="12" required></th>
+			</tr>
+			<tr>
+				<th>QUALIFICATION</th>
+			        	<th><select name="QUALIFICATION">
+				<option value="class 10">class 10</option>
+				<option value="class 12">class 12</option>
+					</select></th>
+			</tr>
+			<tr>
+				<th>COURSE</th>
+			        	<th><select name="COURSE">
+				<option value="B.TECH">B.TECH</option>
+				<option value="M.TECH">M.TECH</option>
+				<option value="M.SC">M.SC</option>
+				<option value="MBA">MBA</option>
+				</select></th>
+			</tr>
+			<tr>
+				<th>GENDER</th>
+				<th><input type="radio" value="Male" name="GENDER">Male
+				<input type="radio" value="Female" name="GENDER">Female</th>
+			</tr>
+			<tr>
+				<th>CATEGORY</th>
+			        	<th><select name="CATEGORY">
+				<option value="GEN">GEN</option>
+				<option value="OBC">OBC</option>
+				<option value="SC">SC</option>
+				<option value="ST">ST</option>
+				</select></th>
+			</tr>
+			<tr>
+				<th>D_O_B</th>
+				<th><input type="date" name="D_O_B"></th>
+			</tr>
+			<tr>
+				<th>ADDRESS</th>
+				<th><textarea rows="3" cols="30" name="ADDRESS"></textarea></th>
+			</tr>
+			<tr>
+			                  <th>FATHER_INCOME</th>
+				  <th><input type="number" name="FATHER_INCOME" min="0" required></th>
+			</tr>
+			<tr>
+			                  <th>FATHER_OCCUPATION</th>
+				  <th><input type="text" name="FATHER_OCCUPATION"></th>
+			</tr>
+			<tr>
+			                  <th>STATE_OF_DOMICILE</th>
+				  <th><input type="text" name="STATE_OF_DOMICILE"></th>
+			</tr>
+			<tr>
+			                  <th>MOTHER_TOUNGE</th>
+				  <th><input type="text" name="MOTHER_TOUNGE"></th>
+			</tr>
+			<tr>
+			                  <th>NATIONALITY</th>
+				  <th><input type="text" name="NATIONALITY"></th>
+			</tr>
+			<tr>
+			                  <th>RELIGION</th>
+				  <th><input type="text" name="RELIGION"></th>
+			</tr>
+			<tr>
+				<th><input type="RESET"></th>
+				<th><input type="submit" value="REGISTER"></th>
+			<tr>
+		</table>
+	</form>
+	</center>
+	</body>
+</html>				
